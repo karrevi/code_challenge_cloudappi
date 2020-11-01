@@ -1,12 +1,14 @@
 <template>
-  <h1>{{ title }}</h1>
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
 </template>
 
 <script>
 export default {
   data: function () {
     return {
-      title: 'Lista de Usuarios'
+      title: "Lista de Usuarios"
     }
   }
 }
