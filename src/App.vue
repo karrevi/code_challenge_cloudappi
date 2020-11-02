@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Header />
-    <Title title="Lista de Usuarios" />
     <List />
     <Card />
     <Footer />
@@ -10,17 +9,15 @@
 
 <script>
 import List from './components/List.vue'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import Footer from './components/Footer'
-import Card from './components/Card'
-import Title from './components/Title/Title'
+import Card from './components/Card/Card'
 
 export default {
   name: 'App',
   components: {
     List,
     Card,
-    Title,
     Header,
     Footer
   }
@@ -28,12 +25,23 @@ export default {
 </script>
 
 <style>
-body,
-ul,
-#app {
+* {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1000px;
+  background: #ffffff;
+  font-family: "Helvetica", sans-serif;
+  color: #333333;
 }
 </style>
