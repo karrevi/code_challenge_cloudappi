@@ -1,5 +1,8 @@
 <template>
-  <title-content>{{ title }}</title-content>
+  <title-content>
+    {{ title }}
+    <p>{{ subtitle }}</p>
+  </title-content>
 </template>
 
 <script>
@@ -11,10 +14,8 @@ export default {
     TitleContent
   },
   props: {
-    title: String
+    title: String,
+    subtitle: String
   }
 }
 </script>
-
-<style>
-</style>
