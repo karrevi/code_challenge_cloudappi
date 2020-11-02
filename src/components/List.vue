@@ -1,20 +1,18 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="user in users" :key="user.id">
-        {{ user.id }}
-        {{ user.name }}
-        {{ user.email }}
-      </li>
-    </ul>
-  </div>
+<div>
+     <Card v-for="user in users" :key="user.id" :item= user.id :user= user.name :email= user.email></Card>
+</div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
+import Card from './Card/Card'
 
 export default {
   name: 'List',
+  components: {
+    Card
+  },
   mounted () {
     this.LOAD_USERS()
   },
