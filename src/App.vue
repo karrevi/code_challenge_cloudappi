@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import List from './components/List.vue'
 import Header from './components/Header/Header'
-import Footer from './components/Footer'
 import Card from './components/Card/Card'
+import List from './components/List/List'
+import Footer from './components/Footer/Footer'
 
 export default {
   name: 'App',
@@ -28,20 +28,14 @@ export default {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 #app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 body {
-  width: 90%;
-  margin: 20px auto;
-  max-width: 1000px;
   background: #ffffff;
-  font-family: "Helvetica", sans-serif;
   color: #333333;
 }
 </style>
