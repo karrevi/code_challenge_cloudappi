@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { HeaderStyle } from './style'
+import { HeaderStyle } from './HeaderStyle'
 import Title from '../Title/Title'
 
 export default {
