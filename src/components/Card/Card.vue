@@ -2,7 +2,7 @@
   <card-wrapper>
     <div class="mt-5">
       <b-card
-        img-src="https://image.flaticon.com/icons/svg/164/164641.svg"
+        img-src= "/img/user__icon.jpg"
         img-alt="Image"
         img-top
         tag="article"
