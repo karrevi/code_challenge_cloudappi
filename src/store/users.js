@@ -5,20 +5,22 @@ export default {
   state: {
     users: []
   },
-  getters: {
-    users: state => {
-      return state.users
-    }
-  },
   mutations: {
     SET_USERS: (state, payload) => {
       state.users = payload
     }
   },
   actions: {
-    LOAD_USERS: async ({ commit }) => {
+    LOAD_USERS: async ({
+      commit
+    }) => {
       const data = await getUsersService()
       commit('SET_USERS', data)
+    }
+  },
+  getters: {
+    users: state => {
+      return state.users
     }
   }
 }
