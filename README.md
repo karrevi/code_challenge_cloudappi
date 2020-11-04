@@ -1,5 +1,5 @@
 <h1 align='center'>Code Challenge CloudAppi</h1>
-Interface that consumes external api [CloudAppi](https://www.cloudappi.net/) and shows listed users.
+Interface that consumes external api and shows listed users.
 
 ## 📱💻 Instructions
 You need to install [Node v14.15.0 & npm 7.0.7](https://nodejs.org/es/download/).
