@@ -1,5 +1,5 @@
 <h1 align='center'>Code Challenge CloudAppi</h1>
-<<<<<<< HEAD
+
 Interface that consumes external api and shows listed users.
 
 ## 🛠️ Built with 
@@ -22,7 +22,7 @@ npm run start
 ```
 ## Author ✒️
 * **Carlos Revilla** - [karrevi](https://github.com/karrevi)
-=======
+
 Interface that consumes external api [CloudAppi](https://www.cloudappi.net/) and shows listed users.
 
 ## 🛠️ Built with
