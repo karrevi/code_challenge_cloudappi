@@ -1,12 +1,13 @@
 <template>
   <title-content>
-    {{ title }}
-    <p>{{ subtitle }}</p>
+    <h2>{{ title }}</h2>
+    <h5>{{ subtitle }}</h5>
+    <p>{{ textfooter }}</p>
   </title-content>
 </template>
 
 <script>
-import { TitleContent } from './style'
+import { TitleContent } from './TitleStyle'
 
 export default {
   name: 'Title',
@@ -15,7 +16,8 @@ export default {
   },
   props: {
     title: String,
-    subtitle: String
+    subtitle: String,
+    textfooter: String
   }
 }
 </script>
