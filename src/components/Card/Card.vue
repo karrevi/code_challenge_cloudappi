@@ -1,15 +1,26 @@
 <template>
   <card-wrapper>
-    <li>
-      <h2>{{ item }}</h2>
-      <h3>{{ user }}</h3>
-      <p>{{ email }}</p>
-    </li>
+    <div class="mt-5">
+      <b-card
+        img-src="https://image.flaticon.com/icons/svg/164/164641.svg"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 17rem"
+        class="mb-2"
+      >
+        <h3>{{ item }}</h3>
+        <b-card-text>
+          <h2>{{ user }}</h2>
+          <p>{{ email }}</p>
+        </b-card-text>
+      </b-card>
+    </div>
   </card-wrapper>
 </template>
 
 <script>
-import { CardWrapper } from './style'
+import { CardWrapper } from './CardStyle'
 
 export default {
   name: 'Card',
