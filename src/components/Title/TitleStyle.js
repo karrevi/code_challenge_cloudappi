@@ -10,7 +10,6 @@ export const TitleContent = styled.div`
 h2, p {
     color: #FFFFFF;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2em;
     font-weight: 700;
 }
 h5 {

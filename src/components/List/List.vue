@@ -7,7 +7,7 @@
         :item="user.id"
         :user="user.name"
         :email="user.email"
-      ></Card>
+      />
     </ListStyle>
   </div>
 </template>
