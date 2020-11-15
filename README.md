@@ -18,7 +18,7 @@ git clone https://github.com/karrevi/code_challenge_cloudappi.git
 ## 2. Install dependencies
 npm install
 ## 3. Run the app
-npm run start
+npm run serve
 ```
 ## Author ✒️
 * **Carlos Revilla** - [karrevi](https://github.com/karrevi)
